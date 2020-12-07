@@ -36,5 +36,6 @@ var template = "I'm " + age + " years old";
 console.log(template);
 
 //bonus
-var changed = "Bonjour";
-console.log(changed.replace("o", "a("));
+var changed = "bonjour";
+var newStr = changed.replace(/o/g, 'a');
+console.log(newStr);
