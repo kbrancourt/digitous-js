@@ -28,4 +28,13 @@ console.log(basic.toLowerCase());
 //split
 var world = "banana";
 var letters = world.split('');
-console.log(letter.charAt(1));
+console.log(letters);
+
+//template
+var age = 38;
+var template = "I'm " + age + " years old";
+console.log(template);
+
+//bonus
+var changed = "Bonjour";
+console.log(changed.replace("o", "a("));
