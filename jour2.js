@@ -55,7 +55,7 @@ console.log( test < bis);
 
 var test = 143;
 var bis = 219;
-console.log( test =< bis);
+console.log( test <= bis);
 
 var test = 143;
 var bis = 219;
@@ -135,3 +135,71 @@ if(random===6){
 }
 
 //bonus2
+var month = "Juanary";
+
+switch (month) {
+    case "Juanary":
+        console.log("Winter");
+        break;
+    case "April":
+        console.log("Spring");
+        break;
+    case "Summer":
+        console.log("July");
+        break;
+    case "October":
+        console.log("Fall");
+        break;
+}
+
+var month = "April";
+switch (month) {
+    case "Juanary":
+        console.log("Winter");
+        break;
+    case "April":
+        console.log("Spring");
+        break;
+    case "Summer":
+        console.log("July");
+        break;
+    case "October":
+        console.log("Fall");
+        break;
+}
+
+var month = "July";
+switch (month) {
+    case "Juanary":
+        console.log("Winter");
+        break;
+    case "April":
+        console.log("Spring");
+        break;
+    case "July":
+        console.log("Summer");
+        break;
+    case "October":
+        console.log("Fall");
+        break;
+}
+
+var month = "October";
+switch (month) {
+    case "Juanary":
+        console.log("Winter");
+        break;
+    case "April":
+        console.log("Spring");
+        break;
+    case "July":
+        console.log("Summer");
+        break;
+    case "October":
+        console.log("Fall");
+        break;
+}
+
+//bonus3
+var roundedNumber = 3.6;
+console.log(Math.floor(3.6), Math.ceil(3.6));
