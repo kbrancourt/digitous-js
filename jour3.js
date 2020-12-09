@@ -14,7 +14,9 @@ console.log(ingredients.indexOf("butter"));
 //add and remove
 
 var objects = ["pen", "book", "lamp"];
-objects.shift("chair");
+
+
+objects.unshift("chair");
 console.log(objects);
 
 objects.pop();
@@ -22,3 +24,20 @@ console.log(objects);
 
 objects.push("laptop");
 console.log(objects);
+
+objects.shift();
+console.log(objects);
+
+//order
+
+var numbers = [4 , 10, 8, 12, 6];
+ console.log(numbers.reverse());
+
+ var numbers1 = [4 , 10, 8, 12, 6];
+console.log(numbers1.sort((a, b) => a - b));
+
+//boucle
+
+var total = 0;
+var limit = 10;
+for ()
