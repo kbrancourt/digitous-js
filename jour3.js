@@ -40,11 +40,16 @@ console.log(numbers1.sort((a, b) => a - b));
 
 var total = 0;
 var limit = 10;
-for (var total = 0; total<limit && total>=0; total++) {
-    console.log(total);
+for (var i = 1; i <= limit; i++){
+    total += i;
+    console.log("total=", total);
 }
+console.log("result="+ total);
+
 
 //reverse
 
 var sentence = "Hello Konexio !";
-for()
+for(var sentence = 0; sentence<=15; sentence--){
+    console.log(sentence);
+}
