@@ -40,16 +40,35 @@ console.log(numbers1.sort((a, b) => a - b));
 
 var total = 0;
 var limit = 10;
-for (var i = 1; i <= limit; i++){
-    total += i;
-    console.log("total=", total);
-}
-console.log("result="+ total);
+ for(var i = 0; i <=limit; i++){
+    total= total + i;   // total=+i
+                        // total= 0 + 1 (i=1) =1
+                        // total= 1 + 2 (i=2) =3
+                        // total= 3 + 3 (i=3)= 6
+                        // total= 6 + 4 (i=4) =10
+                        // total= 10 + 5(i=5)= 15
+                        //....
+                        // total= 45 + 10(i=10)= 55
+    console.log(i);
+
+ }
+console.log("result= ", total);
 
 
 //reverse
 
 var sentence = "Hello Konexio !";
-for(var sentence = 0; sentence<=15; sentence--){
-    console.log(sentence);
+var sentenceInversed= "";
+for (var i = sentence.length - 1; i >= 0; i--) {
+    sentenceInversed += sentence.charAt(i);
 }
+console.log(sentenceInversed);
+
+
+//table de multiplication
+
+var number = 7;
+for(var i=0; i<=9; i++){
+    console.log(number+"x"+i+"="+number*i);
+}
+
