@@ -61,6 +61,23 @@ compare( 6, 6);
 
 // add up
 
+
 function addUp(num){
-    for( i )
+    var sum = 0;
+    for( var i = 0; i<=num; i++){
+        sum = sum + i;
+    }
+    return sum;
 }
+addUp(12);
+console.log();
+
+var addUpResult = addUp(12);
+console.log(addUpResult);
+
+
+//time
+function format(num){
+
+}
+format(3700);
