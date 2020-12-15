@@ -32,10 +32,14 @@ console.log(letters);
 
 //template
 var age = 38;
-var template = "I'm " + age + " years old";
+var template = `I'm ${age} years old !`;
 console.log(template);
 
 //bonus
+
+var quoteOfTheDay= 'Citation d\'aujourd\'hui est: \"Le js c\'est cool"';
+console.log(quoteOfTheDay);
+
 var changed = "bonjour";
 var newStr = changed.replace(/o/g, 'a');
 console.log(newStr);

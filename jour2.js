@@ -205,48 +205,44 @@ var roundedNumber = 3.6;
 var float1 = roundedNumber - Math.floor(roundedNumber);
 var float2 = roundedNumber - Math.ceil(roundedNumber);
 
-
 if(float1 < 0.5){
-    var roundedNumber = 3.6;
     console.log(Math.floor(roundedNumber));
 }else{
     console.log(Math.ceil(roundedNumber));
 }
+
 
 var roundedNumber = 3.3;
 var float1 = roundedNumber - Math.floor(roundedNumber);
 var float2 = roundedNumber - Math.ceil(roundedNumber);
 
-
 if(float1 < 0.5){
-    var roundedNumber = 3.3;
     console.log(Math.floor(roundedNumber));
 }else{
     console.log(Math.ceil(roundedNumber));
 }
+
 
 var roundedNumber = 3.8;
 var float1 = roundedNumber - Math.floor(roundedNumber);
 var float2 = roundedNumber - Math.ceil(roundedNumber);
 
-
 if(float1 < 0.5){
-    var roundedNumber = 3.8;
     console.log(Math.floor(roundedNumber));
 }else{
     console.log(Math.ceil(roundedNumber));
 }
+
 
 var roundedNumber = 12.4;
 var float1 = roundedNumber - Math.floor(roundedNumber);
 var float2 = roundedNumber - Math.ceil(roundedNumber);
 
-
 if(float1 < 0.5){
-    var roundedNumber = 12.4;
     console.log(Math.floor(roundedNumber));
 }else{
     console.log(Math.ceil(roundedNumber));
 }
 
+//bonus4
  
