@@ -30,10 +30,7 @@ function onErr(err) { // permet de gérer les erreurs
 prompt.get(properties, function (err, res) {
   if (err) {
 		return onErr(err);
-	} else{
-        return ("All good!");
-    }
-
+	} 
   console.log("Données reçues :");
   console.log("=> Username : " + res.username);
   console.log("=> Email : " + res.email);

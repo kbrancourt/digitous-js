@@ -10,3 +10,7 @@ function calculateAge(jj, mm, aaaa) {
 }
 
 calculateAge(20,05,1982);
+
+//autre méthode avec pack nmp "moment"
+
+
