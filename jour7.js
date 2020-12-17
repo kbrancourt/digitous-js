@@ -66,17 +66,18 @@ checkPal("laptop");
 //swap
 
 function swap(string){
-    var word= string; 
-
     for(var i = 0; i < string.length; i++){
         var wordReplace = string.charAt(i); 
-            if(wordReplace === wordReplace.toUpperCase().join('')){
-                console.log(wordReplace.toLowerCase); 
-            }else{
-                console.log(wordReplace); 
-            } 
-        
-       
+
+        if(wordReplace === wordReplace.toUpperCase()){
+            wordReplace = wordReplace.toLowerCase(); 
+        }else if(wordReplace = wordReplace.toLowerCase()){
+            wordReplace = wordReplace.toUpperCase(); 
+        } 
+     console.log(wordReplace);    
     }
+    
+        
 }
-swap("Hello World");
+
+swap("Hello World")
