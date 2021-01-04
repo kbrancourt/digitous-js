@@ -90,10 +90,9 @@ var cakes = [
 ];
 
 var chocolateCakes = cakes.filter(function(taste){
-    return (taste.flavor === "chocolate" && taste.name);
-    } cakes.map(function(taste){
-        return cake.splice(2, "available", "sold out");
-    })
-);
+    return (taste.flavor === "chocolate" && taste.name)
+	});
+	
+	
 
 console.log(chocolateCakes);
