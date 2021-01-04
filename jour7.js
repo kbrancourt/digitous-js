@@ -58,3 +58,42 @@ var even = numbers.filter(function(i){
     return i % 2 === 0;
 });
 console.log(even)
+
+
+//cakes
+var cakes = [
+	{
+		name: "cake",
+		flavor: "vanilla",
+		status: "available"
+	},
+	{
+		name: "brownie",
+		flavor: "chocolate",
+		status: "available"
+	},
+	{
+		name: "pie",
+		flavor: "strawberry",
+		status: "available"
+	},
+	{
+		name: "muffin",
+		flavor: "pistachio",
+		status: "available"
+	},
+	{
+		name: "donut",
+		flavor: "chocolate",
+		status: "available"
+	},
+];
+
+var chocolateCakes = cakes.filter(function(taste){
+    return (taste.flavor === "chocolate" && taste.name);
+    } cakes.map(function(taste){
+        return cake.splice(2, "available", "sold out");
+    })
+);
+
+console.log(chocolateCakes);
