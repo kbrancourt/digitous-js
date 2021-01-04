@@ -44,9 +44,17 @@ var shortNames = longNames.map(function(person){
 
 console.log(shortNames);
 
-//filters numbers
-var array = [1, "toto", 34, "javascript", 8];
-var numbers = array.filter(function(element){
-    return element.num;
+// //filters numbers
+// var array = [1, "toto", 34, "javascript", 8];
+// var numbers = array.filter(function(element){
+//     return typeOf.element[] === "number";
+// })
+// console.log(numbers)
+
+//filter even
+
+var numbers = [1, 2, 3, 4, 5, 6 ,7, 8];
+var even = numbers.filter(function(i){
+    return i % 2 === 0;
 });
-console.log(numbers)
+console.log(even)
